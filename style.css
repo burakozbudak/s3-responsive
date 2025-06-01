@@ -97,3 +97,51 @@ nav a:hover {
 }
 
 /* hero alanı bitti */
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 20px 10px 15px;
+    gap: 15px;
+  }
+
+  .logo {
+    height: 24px;
+  }
+
+  nav {
+    font-size: 12px;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: calc(25% - 10px);
+  }
+
+  .hero {
+    margin-top: 0;
+    height: calc(100vh * 0.7);
+    padding: 10px;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: calc(16px * 2);
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: calc(16px * 0.75);
+    margin-top: 5px;
+    color: #dcdcdc;
+  }
+  
+}
