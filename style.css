@@ -28,12 +28,13 @@ html {
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', 'Open Sans',
+    'Helvetica Neue', sans-serif;
 }
 
 .menu-bg {
   background-color: #ededf9;
-  border-bottom: 1px solid #e3e1f9
+  border-bottom: 1px solid #e3e1f9;
 }
 
 .wrapper-centered {
@@ -59,16 +60,17 @@ nav {
   display: flex;
   gap: 15px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 nav a {
   color: #0066c8;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 nav a:hover {
-  color: black
+  color: black;
 }
 
 /* header alanı bitti */
@@ -87,7 +89,7 @@ nav a:hover {
 
 .hero h1 {
   margin: 0;
-  font-size: 40px;
+  font-size: 2rem;
   color: #70d000;
 }
 
@@ -101,13 +103,13 @@ nav a:hover {
 /* MOBİL RESPONSIVE - 480px ve altı */
 @media screen and (max-width: 480px) {
   html {
-    font-size: 16px;
+    font-size: 16px; /* 16px */
   }
 
   body {
     font-size: 16px;
   }
-  
+
   /* Wrapper mobilde tam genişlik */
   .wrapper-centered {
     width: 100%;
@@ -127,7 +129,7 @@ nav a:hover {
   }
 
   nav {
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
     gap: 10px;
     flex-direction: row;
     flex-wrap: wrap;
@@ -152,7 +154,7 @@ nav a:hover {
   }
 
   .hero h1 {
-    font-size: 2rem; 
+    font-size: 2rem;
     margin-bottom: 10px;
   }
 
@@ -161,6 +163,4 @@ nav a:hover {
     margin-top: 5px;
     color: #dcdcdc;
   }
-  
 }
-
